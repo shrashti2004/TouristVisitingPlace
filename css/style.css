@@ -1,0 +1,189 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('../imgwe/tajmahal.jpeg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* opacity: 0.7; */
+}
+#home{
+    align-items: center;
+    
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    background:url('../imgwe/tajmahal.jpeg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4px;
+}
+nav{
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,.2);
+    color:white ;
+   display:flex; justify-content:space-between;
+   align-items: centre;
+}
+nav .logo{
+    width: 25%; text-align:center;
+}
+nav .menu{
+    width:40% ; 
+    display:flex;justify-content:space-around;
+
+}
+nav .menu a{
+width: 100%;  
+font-size: 20px; 
+color: black;
+font-weight:bold;
+}
+nav .menu a:first-child{
+    color: #00b894 ;
+}
+main{
+    width:100% ;
+    height:30vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section h3{
+    font-size: 35px; font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black  ;
+}
+section h1{
+    /* margin: 50px 0 10px 0; */
+    font-size: 45px;
+    font-weight: 300;
+    text-shadow: 2px 1px 5px black;
+    text-transform:uppercase;
+}
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px ;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform:uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+section .btnone{
+    background:white ;
+    color: #000;
+}
+.btnone :hover{
+    background: #00b894;
+    color :white;
+}
+
+section .btntwo{
+    background: #00b894;
+    color :white;
+}
+.btntwo:hover{
+    background:white ;
+    color: #000;
+
+}
+.change_content:after{
+    content:'';
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+}
+@keyframes changetext{
+    
+    0%{content:"AGRA";}
+    20%{content:"JAIPUR";}
+    35%{content:"MUMBAI";}
+    60%{content:"DELHI";}
+    80%{content:"KERALA";}
+}
+#gallery {
+    display: flex;
+    height: 431px;
+}
+#gall2 {
+    display: flex;
+    height: 440px;
+}
+#gall3 img {
+    padding: 20px;
+    height: 440px;
+}
+
+
+#gallery img{
+    padding: 20px;
+}
+#gall2 img{
+    padding: 40px;
+}
+
+#gall h1{
+    text-align: center;
+}
+#galle h1{
+    text-align: center;
+}
+#mumbai {
+    display: flex;
+   
+}
+#mumbai img {
+    padding: 20px;
+    height: 340px;
+
+}
+#marine img {
+    height: 600px;
+    width: 5555px;
+}
+#gateway img{
+    width: 800px;
+}
+#elephant img {
+    height: 500px;
+}
+#juhu img{
+    display: flex;
+    height: 440px;
+
+} #DELHI h1{
+    text-align: center;
+}
+#DELHI img {
+    display: flex;
+    height: 440px;
+}
+#QUTUB img {
+    display: flex;
+    height: 440px;
+}
+#KERALA h1{
+    text-align: center;
+}
+#KERALA img {
+    display: flex;
+    height: 440px;
+}
+#kerla img {
+    display: flex;
+    height: 440px;
+}
